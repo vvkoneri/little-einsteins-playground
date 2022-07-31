@@ -1,0 +1,28 @@
+#sideNavGame {
+  height: 100%; /* 100% Full-height */
+  width: 15%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #f14e4e; /* Black*/
+  color: white;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s;
+}
+
+
+#sideNavGame a {
+  text-decoration: none;
+  padding-left: 15px;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  text-align: left;
+}
+
+#sideNavGame a:hover {
+  color: #21F9CB;
+}
